@@ -10,7 +10,7 @@ $ sudo apt install chrony -y</p>
 </li>
 <li class="has-line-data" data-line-start="3" data-line-end="7">
 <p class="has-line-data" data-line-start="3" data-line-end="6">Run:<br>
-$ sysctl start chronyd<br>
+$ systemctl start chronyd<br>
 $ chronyc tracking</p>
 </li>
 <li class="has-line-data" data-line-start="7" data-line-end="22">
