@@ -33,7 +33,7 @@ Leap status     : Normal</p>
 <p class="has-line-data" data-line-start="22" data-line-end="26">You may have to wait up to 5 minutes to get more accurate results.<br>
 Frequency       : 28.697 ppm fast [1]<br>
 This value means that our system clock is 0.0028697 % faster than reference clock on ntp server (<a href="http://ntp.time.in.ua">ntp.time.in.ua</a>), with measurement error (skew) 0.078 ppm (0.0000078 %). In a 24 hours our system clock runs on:<br>
-84600(seconds per day) * 0.0028697 % = 2.43 seconds faster than reference clock.  [2]</p>
+84600(seconds in 24h) * 0.0028697 % = 2.43 seconds faster than reference clock.  [2]</p>
 </li>
 </ol>
 <p class="has-line-data" data-line-start="28" data-line-end="32">Notes:<br>
