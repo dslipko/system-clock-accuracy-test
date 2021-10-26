@@ -29,17 +29,15 @@ Root dispersion : 0.001537560 seconds<br>
 Update interval : 1030.8 seconds<br>
 Leap status     : Normal</p>
 </li>
-<li class="has-line-data" data-line-start="22" data-line-end="27">
-<p class="has-line-data" data-line-start="22" data-line-end="26">You may have to wait up to 5 minutes to get more accurate results.<br>
+<li class="has-line-data" data-line-start="22" data-line-end="31">
+<p class="has-line-data" data-line-start="22" data-line-end="30">You may have to wait up to 5 minutes to get more accurate results.<br>
 Frequency       : 28.697 ppm fast [1]<br>
 This value means that our system clock is 0.0028697 % faster than reference clock on ntp server (<a href="http://ntp.time.in.ua">ntp.time.in.ua</a>), with measurement error (skew) 0.078 ppm (0.0000078 %). In a 24 hours our system clock runs on:<br>
-84600(seconds per day) * 0.0028697 % = 2.43 seconds faster than reference clock.  [2]</p>
+84600(seconds per day) * 0.0028697 % = 2.43 seconds faster than reference clock.  [2]<br>
+Notes:<br>
+[1] -  Frequency - The ‘frequency’ is the rate by which the system’s clock would be wrong if chronyd was not correcting it. It is expressed in ppm (parts per million). For example, a value of 1 ppm would mean that when the system’s clock thinks it has advanced 1 second, it has actually advanced by 1.000001 seconds relative to true time.<br>
+Skew - This is the estimated error bound on the frequency.<br>
+(<a href="https://chrony.tuxfamily.org/doc/2.4/chronyc.html">https://chrony.tuxfamily.org/doc/2.4/chronyc.html</a>)</p>
 </li>
 </ol>
-<p class="has-line-data" data-line-start="27" data-line-end="33">Notes:<br>
-[1] -  Frequency<br>
-The ‘frequency’ is the rate by which the system’s clock would be wrong if chronyd was not correcting it. It is expressed in ppm (parts per million). For example, a value of 1 ppm would mean that when the system’s clock thinks it has advanced 1 second, it has actually advanced by 1.000001 seconds relative to true time.<br>
-Skew<br>
-This is the estimated error bound on the frequency.<br>
-(<a href="https://chrony.tuxfamily.org/doc/2.4/chronyc.html">https://chrony.tuxfamily.org/doc/2.4/chronyc.html</a>)</p>
-<p class="has-line-data" data-line-start="35" data-line-end="36">[2] -  <a href="http://www.ntp.org/ntpfaq/NTP-s-sw-clocks-quality.htm">http://www.ntp.org/ntpfaq/NTP-s-sw-clocks-quality.htm</a></p>
+<p class="has-line-data" data-line-start="31" data-line-end="32">[2] -  <a href="http://www.ntp.org/ntpfaq/NTP-s-sw-clocks-quality.htm">http://www.ntp.org/ntpfaq/NTP-s-sw-clocks-quality.htm</a></p>
